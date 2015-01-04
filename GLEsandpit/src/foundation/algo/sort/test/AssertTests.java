@@ -45,11 +45,6 @@ public class AssertTests {
         sorter.sort(input);
         //sorter.sort(input2);
 		  
-	//	byte[] expected = "trial".getBytes();
-	//    byte[] actual = "trial".getBytes();
-	    
-	    
-	    //org.junit.Assert.assertArrayEquals("failure - byte arrays not same", expected, actual);
 	    
 	    org.junit.Assert.assertArrayEquals("failure - human arrays not same", input, input2);
 	  }
